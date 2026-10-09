@@ -2,8 +2,8 @@
      "position": "top", // Waybar position (top|bottom|left|right)
     "height": 5, // Waybar height (to be removed for auto height)
     "modules-left": [""],
-    "modules-center": [],
-    "modules-right": ["networking", "pulseaudio", "backlight","cpu","memory","battery", "battery#bat2", "clock", "tray"],
+    "modules-center": ["clock"],
+    "modules-right": ["networking", "pulseaudio", "backlight","cpu","memory","battery", "battery#bat2", "tray"],
     "sway/mode": {
         "format": "<span style=\"italic\">{}</span>"
     },
